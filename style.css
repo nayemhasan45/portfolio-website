@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    font-size:13px;
+}
 .name-high{
     color: blueviolet;
 }
@@ -29,4 +32,20 @@ section{
 .banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+/* deram-big section */
+
+.dream-big{
+    display: flex;
+    margin-top: 80px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-half-width{
+    width: 40%;
+    padding-left: 50px;
+}
+.dream-half-width img{
+    width: 80%;
 }
